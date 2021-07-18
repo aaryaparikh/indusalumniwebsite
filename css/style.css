@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	height: 50px;
+	width: 100%;
+	background-color: whitesmoke;
+	display: inline-flex;
+}
+.logo{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo img{
+	width: 50%;
+	border-radius: 60px;
+    padding-left: 20px;
+}
+.navlist{
+
+	position: absolute;
+	right: 0px;
+	display: flex;
+}
+.navlist li{
+	list-style: none;
+	padding: 20px;
+}
+.navlist li a{
+text-decoration: none;
+color: black;
+}
+.navlist li a:hover{
+text-decoration: none;
+color: gray;
+}
+.disp{
+	display: none;
+	font-size: medium;
+	padding-left: 0px;
+}
+.notdisp:hover
+{
+}
+.notdisp:hover .disp{
+	display: block;
+	padding-left: 0px;
+	padding-bottom: 2px;
+	background-color: whitesmoke;
+	
+}
+.notdisp{
+	align-self: right;
+	padding-right: 0px;
+	margin-right: 0px;	
+}

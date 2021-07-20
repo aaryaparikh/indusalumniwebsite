@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	background: whitesmoke;
+	height: 60px;
+}
+.head{
+	float: right;
+}
+.navlist{
+	display: flex;
+	list-style: none;
+	float: right;
+	text-decoration: none;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+button{
+	width: 5%;
+	padding: 5px;
+	background: #2196F3;
+	color: white;
+	font-size: 10px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}

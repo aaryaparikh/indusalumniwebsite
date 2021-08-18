@@ -1,0 +1,44 @@
+    .engage {
+        height: 300px;
+        width: 700px;
+        background-color: rgb(180, 214, 28);
+    }
+    
+    .btn {
+        padding: 10px;
+        align: center;
+    }
+    
+    .engage {
+        display: flex;
+    }
+    
+    .table {
+        border-spacing: 1em.5em;
+        padding: 0 2em 1em 0;
+    }
+    
+    .td {
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    .footer {
+        height: 700px;
+        background-color: black;
+    }
+    
+    .info {
+        color: darkorange;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+    }
+    
+    .calender {
+        font-size: 40px;
+        text-align: center;
+        border-bottom: 1px solid #e9e1e1;
+        background-color: rgb(232, 242, 248);
+    }

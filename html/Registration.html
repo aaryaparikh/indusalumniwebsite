@@ -8,7 +8,21 @@
     <link rel="stylesheet" type="text/css" href="../css/registration.css">
 </head>
 <body>	
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.19.0"></script>
     <script>
+        function confirmpass(con)
+        {
+            a=document.getElementById("Password").value;
+            b=document.getElementById("confirmpass");
+            if(a!=con)
+            {
+                b.style.color="red";
+            }
+            else
+            {
+                b.style.color="black";
+            }
+        }
         function checkrole(role)
         {
             var a=document.getElementById("Student");  
@@ -348,17 +362,16 @@
                 </tr>
                 <tr>
                     <td><label style="font-size:x-large;">Password</label><br>
-                        <input type="Password" name="Password">
+                        <input id="Password" type="Password" name="Password">
                     </td>
                 </tr>
-                <tr>
+                <tr id="confirmpass">
                     <td><label style="font-size:x-large;">Confirm Password</label><br>
-                        <input type="Password" name="Confirm Password">
+                        <input  type="Password" name="Confirm Password"onchange ="confirmpass(value);" onclick ="confirmpass(value);">
                     </td>
                 </tr>
                 <tr>
                     <td><input type="submit" name="Submit">
-                    <input type="reset" name="Reset"></td>
                 </tr>
             </table>
         </div>        

@@ -1,66 +1,38 @@
-.engage {
-    background-color: rgb(180, 214, 28);
-}
-
-.btn {
-    padding: 10px;
-    align: center;
-}
-
-.engage {
-    display: flex;
-}
-
-.table {
-    border-spacing: 1em.5em;
-    padding: 0 2em 1em 0;
-}
-
-.td {
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    text-align: center;
-}
-
-.calender {
-    font-size: 40px;
-    text-align: center;
-    border-bottom: 1px solid #e9e1e1;
-    background-color: rgb(232, 242, 248);
-}
-
-.contact {
-    background-color: rgb(247, 192, 53);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 130%;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-.contact2 {
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-.contact3 {
-    background-color: rgb(157, 9, 243);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 130%;
-}
-
-.contact4 {
-    background-color: rgb(109, 128, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 130%;
-}
-
-.contact {
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-.contact3 {
-    padding-left: 4%;
-    padding-right: 4%;
-}
+    .engage {
+        background-color:#02075d;
+        color: white;
+        font-family: sans-serif;
+    }
+    
+    .btn {
+        padding: 10px;
+        align: center;
+    }
+    
+    .engage {
+        display: flex;
+    }
+    
+    .table {
+        border-spacing: 1em.5em;
+        padding: 0 2em 1em 0;
+    }
+    
+    .td {
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .calender {
+        font-size: 40px;
+        text-align: center;
+        border-bottom: 1px solid #e9e1e1;
+        background-color: #02075d;
+        color: white;
+        font-family: sans-serif;
+    }
+    .card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }

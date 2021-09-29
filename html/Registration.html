@@ -38,32 +38,32 @@
   <div class="container">
     <div class="title" align="center">Register</div>
     <div class="content" >
-      <form action="#">
+      <form action="registration1.php" method="POST" name="data">
         <div class="user-details">
 
           <div class="input-box">
-            <input type="text" placeholder="Enter your Name" required>
+            <input type="text" name="fname" placeholder="Enter your Name" required>
           </div>
           
           <div class="input-box">
-            <input  type="text" placeholder="Middle Name" required>
+            <input  type="text" name="mname" placeholder="Middle Name" required>
           </div>
 
           <div class="input-box"> 
-            <input type="text" placeholder="Last Name" required>
+            <input type="text" name="lname" placeholder="Last Name" required>
           </div>
 
           <div class="email"> 
-            <input type="email" placeholder="Email" required>
+            <input type="text" name="email" placeholder="Email" required>
           </div>
 
           <div class="email"> 
-          <input type="tel" pattern="[+]{1}[0-9]{11,14}" placeholder="+919999999999" required>
+          <input type="text" name="contact" placeholder="Contact Number" required>
           </div>
 
           <div class="gender-details"><p class="gender-title">Register As:</p>  </div>
-           <div class="gender-details"> <input  class="category" type="radio" name="gender" id="dot-1" required="required" onclick="ableme()" checked> Student</div>
-          <div class="gender-details"><input  class="category" type="radio" name="gender" id="dot-2" onclick="ableme2()"> Faculty</div>
+           <div class="gender-details"> <input value="student"  class="category" type="radio" name="register_as" id="dot-1" onclick="ableme()"> Student</div>
+          <div class="gender-details"><input value="faculty"  class="category" type="radio" name="register_as" id="dot-2" onclick="ableme2()"> Faculty</div>
 
           <div class="Section">
             <p>Required for Students</p>
@@ -74,7 +74,7 @@
     
         <div class="v">
           <label>Degree:</label> <br>
-                    <select name="Degree" class="stud">
+                    <select name="degree" class="stud">
                         <option value="all">Select</option>
                         <option value="Bachelors">Bachelors</option>
                         <option value="Integrated">Integrated</option>
@@ -85,7 +85,7 @@
 
         <div class="v">
           <label>Qualification:</label><br>
-          <select class="fac" align="center" disabled>
+          <select name="qualification" class="fac" align="center">
               <option value="PHD">PHD</option>
               <option value="Dr.">DR.</option>
               <option value="B.Tech">B.Tech</option>
@@ -102,7 +102,7 @@
         </div>
         <div class="v">
           <label>Department:</label><br>                   
-                        <select class="stud" name="Department" style="max-width: 50%;">
+                        <select class="stud" name="department" style="max-width: 50%;">
                         <option value="B.Tech Auto">B.Tech Auto</option>
                         <option value="B.Tech Civil">B.Tech Civil</option>
                         <option value="B.Tech CE">B.Tech CE</option>
@@ -183,7 +183,7 @@
 
         <div class="v">
           <label >Department:</label><br>
-                        <select class="fac" name="Department" style="max-width:50%;" disabled>
+                        <select class="fac" name="department1" style="max-width:50%;">
                             <option value="Automobile Engineering">Automobile Engineering</option>
                             <option value="Civil Engineering">Civil Engineering</option>
                             <option value="Computer Engineering">Computer Engineering</option>
@@ -205,18 +205,18 @@
         </div>
         <div class="x">
           <label>Graduation Date:</label><br>
-          <input style="margin-bottom:7%;" placeholder="Month-Year" class="calender stud" type="month" name="Graduation">
+          <input style="margin-bottom:7%;" placeholder="Month-Year" class="calender stud" type="month" name="graduation">
        </div>
        <div class="x">
          <label></label>
        </div>
 
        <div class="email"> 
-        <input type="text" placeholder="University ID" required>
+        <input name="u_id" type="text" placeholder="University ID" required>
         </div>    
 
         <div class="email">
-        <input type="Password"  placeholder="Enter Password" required>
+        <input name="pass" type="Password"  placeholder="Enter Password" required>
         </div >
 
         <div class="email">

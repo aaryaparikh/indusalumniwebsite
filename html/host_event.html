@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/New.css">
+    <title> Register -Indus Alumni Portal</title>
+    <link rel="icon" href="https://indusuni.ac.in/wp-content/uploads/2020/08/favicon.png" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+   </head>
+<body>
+  <div class="container">
+    <div class="title" align="center">Host An Event</div>
+    <div class="content" >
+      <form action="host_event.php" method="POST" name="data" enctype="multipart/form-data" >
+        <div class="user-details">
+
+          <div class="input-box">
+            <input type="text" name="name"  placeholder="Enter Event Name" required>
+          </div>
+          <div class="input-box"> 
+            <input type="text" name="organizer" placeholder="Event Organizer" required>
+          </div>
+        </div>
+          <div class="input-box">  
+            <textarea name="description"  placeholder="Event Description"></textarea>
+          </div>
+          <br>
+          <div>
+            <label>Upload A Poster</label><br>
+              <input class="image" name="image" type="file">
+            </div>
+          <div  align="center"class="button">
+          <input type="submit" value="HOST">
+        </div>     
+      </form>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/New.css">
+    <title> Register -Indus Alumni Portal</title>
+    <link rel="icon" href="https://indusuni.ac.in/wp-content/uploads/2020/08/favicon.png" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+   </head>
+<body>
+  <div class="container">
+    <div class="title" align="center">POST A JOB</div>
+    <div class="content" >
+      <form action="host_event.php" method="POST" name="data">
+        <div class="user-details">
+          <div class="input-box">
+            <input type="text" name="name"  placeholder="Enter Job Designation" required>
+          </div>
+          <div class="input-box"> 
+            <input type="text" name="organizer" placeholder="Enter Company Name" required>
+          </div>
+        </div>
+        <div class="user-details">
+          <div class="input-box">
+            <input type="text" name="contact" placeholder="Contact" required>
+          </div>
+        </div>
+          <div class="input-box">  
+            <textarea name="description"  placeholder="Job Description"></textarea>
+          </div>
+          <br>
+          <div  align="center"class="button">
+          <input type="submit" value="POST JOB">
+        </div>     
+      </form>
+    </div>
+  </div>
+</body>
+</html>

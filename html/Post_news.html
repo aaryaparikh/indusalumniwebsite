@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    
+    <title> Register -Indus Alumni Portal</title>
+    <link rel="icon" href="https://indusuni.ac.in/wp-content/uploads/2020/08/favicon.png" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <link rel="stylesheet" type="text/css" href="../css/New.css">     
+   </head>
+<body>
+  <div class="container">
+    <div class="title" align="center">ADD SOME NEWS</div>
+    <div class="content" >
+      <form action="add_news.php" method="POST" enctype="multipart/form-data" >
+        <div class="user-details">
+
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Enter News Heading" required>
+          </div>
+        </div>
+          <div class="input-box">  
+            <textarea name="description"  placeholder="Enter News"></textarea>
+          </div>
+          <br>
+          <div>
+            <label>Upload Photos related to News</label><br>
+              <input class="image" name="image" type="file">
+            </div>
+          <div  align="center"class="button">
+            <input type="submit">
+          </div>
+        </div>     
+      </form>
+    </div>
+  </div>
+</body>
+</html>
